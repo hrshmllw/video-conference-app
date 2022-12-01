@@ -1,6 +1,6 @@
 // Agora.io Web SDK config credentials
 const APP_ID = "0814c9b1c6bb4a7aae18007e82a33091"
-const TOKEN = "007eJxTYNh6WX+OBkNEYrJsEqP7gX8V33ZGXn6pJNWzwkC64+g7nh8KDAYWhibJlkmGyWZJSSaJ5omJqYYWBgbmqRZGicbGBpaGzuHtyQ2BjAznTsxlZWSAQBCfiyEnsyy1uKQoNTGXgQEA6AohuQ=="
+const TOKEN = "007eJxTYLD4eviDvuyHyn833a+FiizLWfnG5nfAjIi/WcEcvItMNn1VYDCwMDRJtkwyTDZLSjJJNE9MTDW0MDAwT7UwSjQ2NrA0/H6wI7khkJFh5mUtZkYGCATxuRhyMstSi0uKUhNzGRgA0dskQw=="
 const CHANNEL = "livestream"
 
 // MediaPipe variables for input, output, and FPS control

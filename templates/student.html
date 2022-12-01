@@ -17,10 +17,7 @@
     <!-- harshie -->
 </head>
     <body>
-        <div id="role-box">
-            <button onclick="location.href='admin';">Admin</button>
-            <button onclick="location.href='student';">Student</button>
-        </div>
+        <button id="join-btn">Join</button>
     
             <div id="stream-wrapper">
                 
@@ -31,7 +28,7 @@
                     <button id="leave-btn">Leave Stream</button>
                     <button id="mic-btn">Mic On</button>
                     <button id="camera-btn">Camera</button>
-                    <button id="screenshot-btn">Screenshot</button>                   
+                    <!-- <button id="screenshot-btn">Screenshot</button>  -->                 
                 </div>
             </div>
             
@@ -76,5 +73,5 @@
             });
         </script>
     </body>
-<script src="{{url_for('static', filename='main.js')}}"></script>
+<script src="{{url_for('static', filename='student.js')}}"></script>
 </html>

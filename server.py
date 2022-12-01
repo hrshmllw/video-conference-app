@@ -13,3 +13,11 @@ def hello_world():
 @app.route('/train', methods=['POST'])
 def train():
     retrain_model()
+    
+@app.route('/admin')
+def admin():
+    return render_template('admin.html')
+
+@app.route('/student')
+def student():
+    return render_template('student.html')

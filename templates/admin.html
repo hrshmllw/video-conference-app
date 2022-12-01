@@ -17,11 +17,8 @@
     <!-- harshie -->
 </head>
     <body>
-        <div id="role-box">
-            <button onclick="location.href='admin';">Admin</button>
-            <button onclick="location.href='student';">Student</button>
-        </div>
-    
+        <button id="join-btn">Join</button>
+        
             <div id="stream-wrapper">
                 
                 <video class="input_video" style="visibility: hidden;" height="0px" width="0px"></video>
@@ -31,13 +28,13 @@
                     <button id="leave-btn">Leave Stream</button>
                     <button id="mic-btn">Mic On</button>
                     <button id="camera-btn">Camera</button>
-                    <button id="screenshot-btn">Screenshot</button>                   
+                    <button id="screenshot-btn">Screenshot</button>
                 </div>
             </div>
             
-            <div id="selfie-cam">
+            <!-- <div id="selfie-cam">
                 <canvas class="output" width="640px" height="480px"></canvas>
-            </div>
+            </div> -->
             <div class="control" style="visibility: hidden;"></div>
 
         <script>    
@@ -76,5 +73,5 @@
             });
         </script>
     </body>
-<script src="{{url_for('static', filename='main.js')}}"></script>
+<script src="{{url_for('static', filename='admin.js')}}"></script>
 </html>
