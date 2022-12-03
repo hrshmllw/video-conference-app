@@ -177,7 +177,8 @@ let toggleCamera = async (e) => {
     }
 }
 
-const threshold = 3;
+const threshold = 5;
+let timer;
 
 // Outputs the Face Mesh feed from Camera
 function onResultsFaceMesh(results) {

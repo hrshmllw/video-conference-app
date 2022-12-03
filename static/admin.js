@@ -103,7 +103,6 @@ let joinStream = async () => {
     Notification.requestPermission();
     document.getElementById('join-btn').style.display = 'none'
     document.getElementById('stream-controls').style.display = 'flex'
-    document.getElementById('selfie-cam').style.display = 'block'
 }
 
 // Method for remote users
