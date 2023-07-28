@@ -1,4 +1,4 @@
-# video-conference-app
+# Video Conference App
 
 Video conferencing web app with facial recognition and eye-tracking functions.
 
